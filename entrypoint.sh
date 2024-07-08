@@ -6,7 +6,7 @@ cp .env.example .env
 
 sed -i 's/DB_HOST=.*/DB_HOST=pgsql/g' .env 
 sed -i 's/DB_USERNAME=.*/DB_USERNAME=root/g' .env
-sed -i 's/DB_USERNAME=.*/DB_PASSWORD=L3z8lqWBA5a3YqsBqSXMWr5NhnvC20j8/g' .env
+sed -i 's/DB_PASSWORD=.*/DB_PASSWORD=L3z8lqWBA5a3YqsBqSXMWr5NhnvC20j8/g' .env
 sed -i 's/DB_PORT=.*/DB_PORT=5432/g' .env 
 DATABASE_URL
 
